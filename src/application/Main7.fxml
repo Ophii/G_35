@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="main7" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="589.0" prefWidth="614.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Fiche_patient">
+   <children>
+      <Label alignment="CENTER" layoutX="-9.0" layoutY="14.0" prefHeight="48.0" prefWidth="632.0" text="Fiche de Patient">
+         <font>
+            <Font name="Arial Bold Italic" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="72.0" text="Nom :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="139.0" text="Adresse :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="93.0" prefHeight="21.0" prefWidth="139.0" text="Date de Naissance :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="116.0" text="Sexe :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="72.0" text="Prenom :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="161.0" prefHeight="21.0" prefWidth="83.0" text="Téléphone :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="63.0" prefHeight="174.0" prefWidth="593.0" style="-fx-border-width: 2; -fx-border-color: #000000;" underline="true" />
+      <Label layoutX="284.0" layoutY="203.0" prefHeight="21.0" prefWidth="60.0" text="Poids :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="203.0" text="Taille :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="35.0" layoutY="116.0" text="Age : ">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="33.0" layoutY="182.0" prefHeight="21.0" prefWidth="60.0" text="E-mail : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textdate_naiss" layoutX="164.0" layoutY="91.0" prefHeight="25.0" prefWidth="414.0" promptText=".........................................................................................................................................................................................................." style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="textage" layoutX="78.0" layoutY="114.0" prefHeight="25.0" prefWidth="53.0" promptText="....................." style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="textprenom" layoutX="346.0" layoutY="70.0" prefHeight="25.0" prefWidth="231.0" promptText="......................................................................................." style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="textsexe" layoutX="329.0" layoutY="114.0" prefHeight="25.0" prefWidth="103.0" promptText="....................................................................." style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="texttaill" layoutX="85.0" layoutY="201.0" prefHeight="25.0" prefWidth="72.0" promptText=".............................." style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="textmail" layoutX="83.0" layoutY="180.0" prefHeight="25.0" prefWidth="485.0" promptText="................................................................................................................................................................................." style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="textadresse" layoutX="96.0" layoutY="137.0" prefHeight="25.0" prefWidth="477.0" promptText="................................................................................................................................................................................." style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="texttelephon" layoutX="114.0" layoutY="159.0" prefHeight="25.0" prefWidth="453.0" promptText="................................................................................................................................................................................." style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="textpoid" layoutX="336.0" layoutY="201.0" prefHeight="25.0" prefWidth="72.0" promptText=".........................." style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="textnom" layoutX="85.0" layoutY="70.0" prefHeight="25.0" prefWidth="197.0" promptText=".................................................................................................." style="-fx-background-color: #FFFFFF;" />
+      <Label layoutX="14.0" layoutY="243.0" prefHeight="329.0" prefWidth="593.0" style="-fx-border-width: 2; -fx-border-color: #000000;" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="274.0" prefHeight="21.0" prefWidth="367.0" text="Est-ce que vous avez déjà subi une opération chirurgicale ?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="376.0" text="Avez-vous une maladie chronique dont vous souffrez ?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="396.0" text="Nombre de doses :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="323.0" text="Avez-vous des médicaments que vous prenez régulièrement ?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="check_1" layoutX="490.0" layoutY="276.0" mnemonicParsing="false" onAction="#check1" prefHeight="17.0" prefWidth="16.0" />
+      <CheckBox fx:id="check_3" layoutX="490.0" layoutY="378.0" mnemonicParsing="false" onAction="#check3" prefHeight="17.0" prefWidth="15.0" />
+      <CheckBox fx:id="check_2" layoutX="490.0" layoutY="325.0" mnemonicParsing="false" onAction="#check2" prefHeight="17.0" prefWidth="16.0" />
+      <Label layoutX="20.0" layoutY="482.0" text="rapport médical :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="396.0" text="Nom des médicaments :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="295.0" prefHeight="20.0" prefWidth="53.0" text="Détails :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textcus_1" layoutX="86.0" layoutY="298.0" prefHeight="20.0" prefWidth="322.0" promptText="........................................................................................................................." style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="textcus_2" layoutX="86.0" layoutY="351.0" prefHeight="25.0" prefWidth="322.0" promptText="......................................................................................................................................" style="-fx-background-color: #FFFFFF;" />
+      <Label layoutX="35.0" layoutY="341.0" text="Détails :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textmed" layoutX="41.0" layoutY="416.0" prefHeight="59.0" prefWidth="286.0" promptText="............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................." />
+      <TextArea fx:id="textdos" layoutX="340.0" layoutY="416.0" prefHeight="59.0" prefWidth="220.0" promptText=".........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................." />
+      <TextArea fx:id="textrapp" layoutX="131.0" layoutY="482.0" prefHeight="78.0" prefWidth="453.0" promptText="................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................." />
+      <MenuBar layoutX="-3.0" layoutY="2.0" style="-fx-background-color: #ffffff;">
+        <menus>
+          <Menu mnemonicParsing="false" text="Option">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Annuler" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#exit7" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button layoutX="550.0" layoutY="2.0" mnemonicParsing="false" onAction="#returnmain2" style="-fx-background-color: #ffffff;" text="Return" />
+      <Label fx:id="res_1" layoutX="522.0" layoutY="276.0" />
+      <Label fx:id="res_2" layoutX="522.0" layoutY="325.0" />
+      <Label fx:id="res_3" layoutX="522.0" layoutY="378.0" />
+      <Label layoutX="476.0" layoutY="251.0" prefHeight="17.0" prefWidth="53.0" text="Oui/Non" />
+      <Button fx:id="savebutton" layoutX="552.0" layoutY="26.0" mnemonicParsing="false" onAction="#getinfo" style="-fx-background-color: #ffffff;" text="Save" />
+   </children>
+</AnchorPane>

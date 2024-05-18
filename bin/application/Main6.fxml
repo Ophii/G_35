@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="main6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="424.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Certafica_medical">
+   <children>
+      <Label disable="true" layoutX="11.0" layoutY="52.0" prefHeight="352.0" prefWidth="402.0" style="-fx-border-width: 2; -fx-border-color: #000000;" />
+      <Label layoutX="110.0" layoutY="76.0" prefHeight="23.0" prefWidth="205.0" text="Certificat Médical">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="275.0" layoutY="59.0" prefHeight="16.0" prefWidth="40.0" text="Date :" />
+      <TextField fx:id="textdate" layoutX="307.0" layoutY="55.0" prefHeight="25.0" prefWidth="94.0" promptText="........................................................." style="-fx-background-color: #ffffff;" />
+      <Label layoutX="21.0" layoutY="133.0" prefHeight="23.0" prefWidth="86.0" text="Je soussigné Dr " />
+      <TextField fx:id="textmed" layoutX="100.0" layoutY="132.0" prefHeight="23.0" prefWidth="63.0" promptText="............................................" style="-fx-background-color: #ffffff;" />
+      <TextField fx:id="textduree" layoutX="193.0" layoutY="202.0" promptText="................................................." style="-fx-background-color: #ffffff;" />
+      <TextField fx:id="textage" layoutX="289.0" layoutY="157.0" prefHeight="4.0" prefWidth="63.0" promptText="...................................." style="-fx-background-color: #ffffff;" />
+      <TextField fx:id="textcua" layoutX="233.0" layoutY="223.0" promptText="............................................" style="-fx-background-color: #ffffff;" />
+      <TextField fx:id="textnom" layoutX="89.0" layoutY="157.0" promptText="......................................................." style="-fx-background-color: #ffffff;" />
+      <Label layoutX="171.0" layoutY="136.0" text="Certifie avoir examiné," />
+      <Label layoutX="22.0" layoutY="161.0" text="Mr     Mme " />
+      <Label layoutX="247.0" layoutY="161.0" text="Age de " />
+      <Label layoutX="22.0" layoutY="182.0" prefHeight="17.0" prefWidth="230.0" text="et déclare que son état de santé nécessite :" />
+      <Label layoutX="22.0" layoutY="206.0" text="Un Arret de travail (Ropos) de :" />
+      <Label layoutX="22.0" layoutY="227.0" text="Une prolongation d'arret de travail de :" />
+      <Label layoutX="22.0" layoutY="251.0" prefHeight="17.0" prefWidth="22.0" text="du " />
+      <Label layoutX="122.0" layoutY="251.0" text="au :" />
+      <Label layoutX="260.0" layoutY="251.0" text="sauf complication" />
+      <Label layoutX="23.0" layoutY="272.0" text="Doit reprendre son travail a dater du :" />
+      <Label layoutX="238.0" layoutY="311.0" text="Dont certificat" />
+      <TextField fx:id="textrep" layoutX="221.0" layoutY="268.0" promptText="......................................" style="-fx-background-color: #ffffff;" />
+      <TextField fx:id="textfin" layoutX="150.0" layoutY="247.0" prefHeight="17.0" prefWidth="86.0" promptText=".........................." style="-fx-background-color: #ffffff;" />
+      <TextField fx:id="textdeb" layoutX="44.0" layoutY="247.0" prefHeight="17.0" prefWidth="75.0" promptText="............................" style="-fx-background-color: #ffffff;" />
+      <Button layoutX="7.0" layoutY="8.0" mnemonicParsing="false" onAction="#returnmain4" style="-fx-background-color: #ffffff;" text="Return" />
+      <Button fx:id="savebutton" layoutX="356.0" layoutY="8.0" mnemonicParsing="false" onAction="#getinfo" style="-fx-background-color: #ffffff;" text="Save" />
+      <Button layoutX="7.0" layoutY="426.0" mnemonicParsing="false" onAction="#exit6" style="-fx-background-color: #ffffff;" text="Exit" />
+   </children>
+</AnchorPane>
